@@ -2,7 +2,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: 'health,metrics,info,prometheus'
+        include: '*,prometheus'
   metrics:
     export:
       prometheus:
@@ -13,4 +13,4 @@ management:
     prometheus:
       enabled: true
 server:
-  port: 8081
+  port: 8082

@@ -17,6 +17,10 @@ public class MetricsCollectorConfiguration {
     @Autowired
     private CollectorRegistry collectorRegistry;
 
+    public static void main(String[] args) {
+        
+    }
+
     @Bean
     public List<Object> metricSamples() {
         Enumeration<MetricFamilySamples> samples = this.collectorRegistry.metricFamilySamples();

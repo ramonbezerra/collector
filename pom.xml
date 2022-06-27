@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>br.edu.ufcg</groupId>
 	<artifactId>collector</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>collector</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -32,13 +32,13 @@
 		</dependency>
 	</dependencies>
 
-	<build>
+	<!-- <build>
 		<plugins>
 		<plugin>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-maven-plugin</artifactId>
 		</plugin>
 		</plugins>
-	</build>
+	</build> -->
 
 </project>
